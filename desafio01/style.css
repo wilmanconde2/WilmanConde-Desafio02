@@ -1,0 +1,126 @@
+/*  
+    font-family: Impact, Charcoal, sans-serif;
+    
+    font-family: Arial, Gadget, sans-serif;
+    
+    font-family: 'Lucida Sans Unicode','Lucida Grande', sans-serif;
+} */
+html {
+    background-color: #273238;
+    /*     border-top : 10px solid #205895;
+    border-left : 10px solid #205895;
+    border-bottom : 15px solid #205895;
+    border-right : 20px solid #205895; */
+}
+
+h1 {
+    background-color: white;
+    font-size: 48px;
+    color: #698593;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    color: #dfcec9;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+p {
+    color: #cad5db;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 14.2px;
+}
+.espacio {
+    color: #cad5db;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 14.2px;
+    word-spacing: 3px;
+/*     justify-content: baseline;
+ */}
+
+#aspi {
+    size: 100%;
+    margin-left: 45px;
+    border: 5px ridge #dfcec9;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 100%;
+}
+
+#celphone {
+    size: 100%;
+    margin-left: 45px;
+    border: 5px ridge #a1c1cb;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 100%;
+}
+
+#celular {
+    color: #a1c1cb;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+#consolas {
+    color: #bcbdbf;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+#home-theater {
+    color: #8d94a1;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+#console {
+    size: 100%;
+    margin-left: 45px;
+    border: 5px ridge #bcbdbf;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 100%;
+}
+
+#home {
+    size: 100%;
+    margin-left: 45px;
+    border: 5px ridge #8d94a1;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 100%;
+}
+
+#televisor {
+    color: #b2b2aa;
+    font-family: Arial, Gadget, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+#tv {
+    size: 100%;
+    margin-left: 45px;
+    border: 5px ridge #b2b2aa;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 100%;
+}

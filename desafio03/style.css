@@ -1,0 +1,53 @@
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #d24b94;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+h2 {
+    color: #d24b94;
+    /*     font-weight: 300; */
+    font-size: medium;
+    letter-spacing: 8px;
+}
+
+p {
+    color: #2e62a4;
+}
+
+.hotelPop {
+    float: right;
+    margin: 5px 10px;
+    width: 400px;
+}
+
+.hotelCaribbean {
+    float: left;
+    margin: 5px 10px;
+    width: 400px;
+}
+
+.hotelAnimal {
+    float: right;
+    margin: 5px 10px;
+    width: 400px;
+}
+
+.mickey-minnie {
+    width: 100%;
+}
