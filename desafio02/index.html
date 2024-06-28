@@ -1,27 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurantes</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <title>Desafio02</title>
 </head>
 
 <body>
-  <h1>« Nuestros restaurantes »</h1>
+  <video autoplay muted loop id="myVideo">
+    <source src="/marioBros.mp4" type="video/mp4">
+  </video>
 
-  <img src="/img/barcelona.webp" alt="barcelona">
-  <img src="/img/buenos-aires.webp" alt="buenos-aires">
-  <img src="/img/madrid.webp" alt="madrid">
-  <img src="/img/miami.webp" alt="miami">
-  <img src="/img/paris.webp" alt="paris">
-  <img src="/img/pipa.webp" alt="pipa">
-  <img src="/img/rio-de-janeiro.webp" alt="rio-de-janeiro">
-  <img src="/img/roma.webp" alt="roma">
-  <img src="/img/rosario.webp" alt="rosario">
-  <img src="/img/tokio.webp" alt="tokio">
+  <div class="content">
+    <h1>Desafio02</h1>
+    <h2>Wilman Conde</h2>
+    <p>Links desafio02 bootcamp 71350</p>
+    <ul>
+      <li><a class="enlace" href="https://01-ejercicio-imagenes-productos.netlify.app/"
+          target="_blank">01-ejercicio-imagenes-productos</a></li>
+      <li><a class="enlace" href="https://02-ejercicio-imagenes-restaurantes.netlify.app/"
+          target="_blank">02-ejercicio-imagenes-restaurantes</a></li>
+      <li><a class="enlace" href="https://03-ejercicio-imagenes-hoteles.netlify.app/"
+          target="_blank">03-ejercicio-imagenes-hoteles</a></li>
+    </ul>
 
-  <script type="module" src="/main.js"></script>
+    <!-- Use a button to pause/play the video with JavaScript -->
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </div>
+
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+  </script>
+
 </body>
 
 </html>
